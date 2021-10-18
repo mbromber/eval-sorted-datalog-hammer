@@ -3,7 +3,7 @@
 This repository contains auxiliary resources for the following research work:
 
 **A Sorted Datalog Hammer for Supervisor Verification Conditions Modulo Simple Linear Arithmetic**
-by Martin Bromberger, Irina Dragoste, Rasha Faqeh, Christof Fetzer, Markus Krötzsch, Maximilian Marx, Harish K Murali, and Christoph Weidenbach. 2021.
+by Martin Bromberger, Irina Dragoste, Rasha Faqeh, Christof Fetzer, Larry González, Markus Krötzsch, Maximilian Marx, Harish K Murali, and Christoph Weidenbach. 2021.
 
 
 ## SPASS-SPL (v0.7)
