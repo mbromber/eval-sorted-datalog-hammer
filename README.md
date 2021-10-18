@@ -12,7 +12,7 @@ by Martin Bromberger, Irina Dragoste, Rasha Faqeh, Christof Fetzer, Larry Gonzá
 
     ./bin/SPASS-SPL -d <file>.ftcnf
 
-[SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL) will then apply the sorted Datalog Hammer to transform the HBS(SLR)AP clause set (modulo a universal conjecture) into an equisatisfiable Datalog program. After that is done, [SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL) solves the Datalog program with the Datalog reasoner VLog that has been integrated into [SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL) via an API.
+[SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL) will then apply the sorted Datalog Hammer to transform the HBS(SLR)AP clause set (modulo a universal conjecture) into an equisatisfiable Datalog program. After that is done, [SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL) solves the Datalog program with the Datalog reasoner [VLog](https://github.com/karmaresearch/vlog) that has been integrated into [SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL) via an API.
 
 [SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL) returns `Conjecture proven!` if the universal conjecture is entailed by the clause set and otherwise `Conjecture refuted!`.
 
