@@ -43,7 +43,7 @@ To determine whether a HBS(SLR)PP clause set is satisfiable (encoded in the [FTC
 
     ./bin/SPASS-SPL-v0_6 -d <file>.ftcnf
 
-In both cases, [SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL-0_6) will then apply the original Datalog Hammer to transform the HBS(SLR)PP clause set (modulo a universal conjecture) into an equisatisfiable Datalog program. After that is done, [SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL-0_6) solves the Datalog program with the Datalog reasoner VLog that has been integrated into [SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL-0_6) via an API.
+In both cases, [SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL-0_6) will then apply the original Datalog Hammer to transform the HBS(SLR)PP clause set (modulo a universal conjecture) into an equisatisfiable Datalog program. After that is done, [SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL-0_6) solves the Datalog program with the Datalog reasoner [VLog](SPASS-SPL solves the Datalog program with the Datalog reasoner VLog that has been integrated into SPASS-SPL via an API.) that has been integrated into [SPASS-SPL](https://github.com/mbromber/eval-sorted-datalog-hammer/blob/main/bin/SPASS-SPL-0_6) via an API.
 
 SPASS-SPL returns `Conjecture proven!` if the universal conjecture is entailed by the clause set and otherwise `Conjecture refuted!`.
 
